@@ -19,9 +19,9 @@ _________          _______           _______  _        _______  _        _______
                                                                                           
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | created by DL_Nguyen""",'green'))
 
-ip = str(input(colored("[+] IP: ",'green')))
-port = int(input(colored("[+] Port: ",'green')))
-packet = int(input(coloed('[+] Packets: ',''green')))
+ip = str(input(colored("[+] Vui Lòng Nhập IP TARGET: ",'green')))
+port = int(input(colored("[+] Vui Lòng Nhập Port: ",'green')))
+packet = int(input(coloed('[+] Vui Lòng Nhập Số Lượng: ',''green')))
 thread = int(input(coloed('[+] Threads: ',''green')))
 time.sleep(2)
 
