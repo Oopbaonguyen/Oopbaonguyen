@@ -21,8 +21,8 @@ _________          _______           _______  _        _______  _        _______
 
 ip = str(input(colored("[+] Vui Lòng Nhập IP TARGET: ",'green')))
 port = int(input(colored("[+] Vui Lòng Nhập Port: ",'green')))
-packet = int(input(coloed('[+] Vui Lòng Nhập Số Lượng: ',''green')))
-thread = int(input(coloed('[+] Threads: ',''green')))
+packet = int(input(coloed("[+] Vui Lòng Nhập Số Lượng: ','green')))
+thread = int(input(coloed("[+] Threads: ','green')))
 time.sleep(2)
 
 os.system('cls')
