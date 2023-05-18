@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @Oopbaonguyen
-- 👀 I’m interested in termux
-- 🌱 I’m currently learning termux
-- 💞️ I’m looking to collaborate on termux
-- 📫 How to reach me ...
+# SETUP
+$ git clone https://github.com/cochyhung/Sonic-Blood
 
-<!---
-Oopbaonguyen/Oopbaonguyen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+$ cd Sonic-Blood
+
+$ python3 setup.py or python setup.py
+
+# run
+
+$ python main.py or python3 main.py
+
+# contact
+$ zalo 0335725764
